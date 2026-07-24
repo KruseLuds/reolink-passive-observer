@@ -206,7 +206,6 @@ how to set that up.
   solution.
 - Roaming between access points can cause missed events if not every relevant
   uplink is included in the mirror source.
-- Firmware or cloud-service changes may alter the traffic pattern.
 - The observer does not provide video, snapshots, recordings, or doorbell
   press classification.
 
