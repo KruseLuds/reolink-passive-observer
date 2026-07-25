@@ -4,8 +4,8 @@
 service on a Raspberry Pi, publishing Home Assistant MQTT Discovery entities 
 from passive observation of Reolink Battery Doorbell network activity.
 
-Reolink Passive Observer is a small Linux daemon that creates a short-lived
-Home Assistant MQTT binary sensor from an observable network behavior (activity/movement) produced
+The Reolink Passive Observer is a small Linux daemon that creates a short-lived
+Home Assistant MQTT binary sensor, which represents the detection of motion, from an observable network behavior (activity/movement) produced
 by a Reolink battery doorbell.
 
 Designed to have ZERO EFFECT on the battery,the observer does not log in to the device, request a video stream, decrypt
