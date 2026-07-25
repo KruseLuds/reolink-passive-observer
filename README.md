@@ -8,7 +8,7 @@ Reolink Passive Observer is a small Linux daemon that creates a short-lived
 Home Assistant MQTT binary sensor from an observable network behavior (activity/movement) produced
 by a Reolink battery doorbell.
 
-The observer does not log in to the device, request a video stream, decrypt
+Designed to have ZERO EFFECT on the battery,the observer does not log in to the device, request a video stream, decrypt
 HTTPS traffic, or require Reolink credentials. It watches a mirrored copy of
 the device's outbound traffic and looks for a configured TLS hostname during
 connection setup. When matching activity is observed, it publishes `ON` to
